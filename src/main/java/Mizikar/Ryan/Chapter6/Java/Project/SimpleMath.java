@@ -4,6 +4,7 @@ public class SimpleMath {
 	public double numerator;
 	public double denominator;
 	public double ArithmeticException;
+	public double multiply;
 	
 	//start of divide method
 public double divide(double numerator, double denominator) {
@@ -17,5 +18,10 @@ public double divide(double numerator, double denominator) {
 		return result;
 		
 	}
-	//end of divide method
+public double multiply(double number1, double number2) {
+	
+	double result = number1*number2;
+	System.out.println(result);
+	return result;
 }
+	}
